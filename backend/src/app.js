@@ -15,4 +15,8 @@ app.use(
     })
 );
 
+import postRoutes from "./routes/post.route.js";
+
+app.use("/api/v1", postRoutes);
+
 export default app;
